@@ -39,34 +39,24 @@ The goal is to surface actionable business insights around revenue performance, 
 | Payment Methods | UPI, Wallet, Credit Card, Debit Card, Cash on Delivery |
 
 ---
-
-## Project Workflow
+## Repository Structure
 
 ```
-Raw CSV Data
-     │
-     ▼
-Excel — Power Query
-├── Standardised company and city names
-├── Resolved mixed date formats (ISO + DD/MM/YYYY)
-├── Replaced corrupted Order_Value entries (₹ prefix, N/A)
-├── Filled null Customer_Ratings with median by company
-├── Filtered invalid Delivery_Time values (zeros)
-├── Converted Discount_Applied to Boolean (True/False)
-└── Removed duplicates
-     │
-     ▼
-PostgreSQL
-├── CREATE TABLE qc_orders — 14 columns, typed and constrained
-     │
-     ▼
-Power BI
-├── Calendar table with full 2024 date intelligence
-├── 12 DAX measures + 2 calculated columns
-├── Page 1 — Executive Overview
-└── Page 2 — Operational Performance
-```
+Quick-Commerce-Analytics/
+│
+├── README.md
+├── data/
+│   ├── qc_Raw_data_latest.csv        # Original raw dataset
+│   └── QC_CleanedData.csv            # Cleaned dataset post Power Query
+├── sql/
+│   └── quick_commerce.sql            # CREATE TABLE + 2 views
+├── powerbi/
+│   └── QuickCommerce_data.pbix       # Power BI dashboard file
+└── images/
+    ├── dashboard_overview.png        # Page 1 screenshot
+    └── dashboard_operations.png      # Page 2 screenshot
 
+```
 ---
 
 ## Dashboard
@@ -98,50 +88,5 @@ Gurgaon (₹1.06 crore) and Noida (₹1.04 crore) rank #1 and #2 in total revenu
 
 ---
 
-## Repository Structure
-
-```
-Quick-Commerce-Analytics/
-│
-├── README.md
-├── data/
-│   ├── qc_Raw_data_latest.csv        # Original raw dataset
-│   └── QC_CleanedData.csv            # Cleaned dataset post Power Query
-├── sql/
-│   └── quick_commerce.sql            # CREATE TABLE + 2 views
-├── powerbi/
-│   └── QuickCommerce_data.pbix       # Power BI dashboard file
-└── images/
-    ├── dashboard_overview.png        # Page 1 screenshot
-    └── dashboard_operations.png      # Page 2 screenshot
-```
-
 ---
 
-## How to Run
-
-**PostgreSQL:**
-```sql
--- Run the SQL file to create the table
-\i sql/quick_commerce.sql
-
--- Import cleaned data via pgAdmin Import/Export wizard
--- or via COPY command:
-COPY qc_orders FROM '/path/to/QC_CleanedData.csv' DELIMITER ',' CSV HEADER;
-```
-
-**Power BI:**
-1. Open `QuickCommerce_data.pbix` in Power BI Desktop
-2. Go to Home → Transform Data → Data Source Settings
-3. Update PostgreSQL server and database name to your local setup
-4. Click Refresh
-
----
-
-## Author
-
-**Sambhav Gupta**
-Built as a portfolio project demonstrating end-to-end data analytics capability across Excel, PostgreSQL and Power BI — reflecting a real-world corporate data workflow from raw ingestion to business insight.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github&logoColor=white)](https://github.com/sambhavg18)
