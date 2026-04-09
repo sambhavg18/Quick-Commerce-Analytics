@@ -58,15 +58,13 @@ Excel — Power Query
      ▼
 PostgreSQL
 ├── CREATE TABLE qc_orders — 14 columns, typed and constrained
-├── CREATE VIEW discount_impact
-└── CREATE VIEW delivery_performance
      │
      ▼
 Power BI
 ├── Calendar table with full 2024 date intelligence
 ├── 12 DAX measures + 2 calculated columns
 ├── Page 1 — Executive Overview
-└── Page 2 — Operational Performance & Discount Insights
+└── Page 2 — Operational Performance
 ```
 
 ---
@@ -124,7 +122,7 @@ Quick-Commerce-Analytics/
 
 **PostgreSQL:**
 ```sql
--- Run the SQL file to create the table and views
+-- Run the SQL file to create the table
 \i sql/quick_commerce.sql
 
 -- Import cleaned data via pgAdmin Import/Export wizard
