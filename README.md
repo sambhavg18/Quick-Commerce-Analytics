@@ -60,10 +60,10 @@ Quick-Commerce-Analytics/
 ## Key Insights
 
 **1. Zepto dominates delivery speed by a significant margin**
-Zepto's average delivery time of **9.62 minutes** is nearly 40% faster than Blinkit (15.11 min) and more than twice as fast as Jio Mart (23.01 min). A remarkable **88.3% of Zepto's orders are delivered under 15 minutes** — compared to just 6.5% for Jio Mart. This directly reflects Zepto's hyperlocal dark store strategy concentrated in dense metro areas.
+Zepto's average delivery time of **9.62 minutes** is nearly 40% faster than Blinkit (15.11 min) and more than twice as fast as Jio Mart (23.01 min). A remarkable **88.3% of Zepto's orders are delivered under 15 minutes** compared to just 6.5% for Jio Mart. This directly reflects Zepto's hyperlocal dark store strategy concentrated in dense metro areas.
 
 **2. Discounting drives higher basket sizes but has zero impact on satisfaction**
-Discounted orders carry an average order value of **₹719 vs ₹485** for non-discounted — a 48% premium. However both groups share an identical average customer rating of **3.17**. 
+Discounted orders carry an average order value of **₹719 vs ₹485** for non-discounted , a 48% premium. However both groups share an identical average customer rating of **3.17**. 
 
 **3. Festive season creates a dramatic demand spike**
 October recorded **22,251 orders** and ₹1.27 crore in revenue, a **53% spike above the monthly baseline** of ~14,500 orders. November followed closely with 20,141 orders. This mirrors Navratri, Dussehra and Diwali gifting patterns perfectly.
@@ -74,7 +74,6 @@ Swiggy Instamart generated the highest total revenue (**₹1.92 crore**) ahead o
 **5. NCR cities outperform metro giants**
 Gurgaon (₹1.06 crore) and Noida (₹1.04 crore) rank #1 and #2 in total revenue ahead of Mumbai (₹89 lakh) and Delhi (₹92 lakh). This reflects high disposable income and delivery infrastructure density in these cities.
 
----
 
 ---
 
