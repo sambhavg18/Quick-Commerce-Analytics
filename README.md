@@ -13,8 +13,6 @@
 
 This project delivers a comprehensive analysis of India's quick commerce sector — one of the fastest growing segments in Indian retail. Using a dataset of **179,380 orders** across **6 major platforms** and **12 Indian cities** spanning the full year of **2024**, the project follows an industry-standard data workflow: raw data cleaning in Excel, structured storage and analysis in PostgreSQL, and interactive visualisation in Power BI.
 
-The goal is to surface actionable business insights around revenue performance, delivery efficiency, customer behaviour, and the impact of discounting — the exact questions that quick commerce companies and their investors care about today.
-
 ---
 
 ## Tools & Technologies
@@ -49,7 +47,7 @@ Quick-Commerce-Analytics/
 │   ├── qc_Raw_data_latest.csv        # Original raw dataset
 │   └── QC_CleanedData.csv            # Cleaned dataset post Power Query
 ├── sql/
-│   └── quick_commerce.sql            # CREATE TABLE + 2 views
+│   └── quick_commerce.sql            # CREATE TABLE 
 ├── powerbi/
 │   └── QuickCommerce_data.pbix       # Power BI dashboard file
 └── images/
