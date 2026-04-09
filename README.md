@@ -15,16 +15,6 @@ This project delivers a comprehensive analysis of India's quick commerce sector 
 
 ---
 
-## Tools & Technologies
-
-| Tool | Purpose |
-|---|---|
-| Microsoft Excel (Power Query) | Data cleaning, transformation and preparation |
-| PostgreSQL | Relational database, schema design, analytical views |
-| Power BI Desktop | Interactive dashboard and business visualisation |
-
----
-
 ## Dataset
 
 | Attribute | Detail |
