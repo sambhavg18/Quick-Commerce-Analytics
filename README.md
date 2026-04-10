@@ -34,25 +34,27 @@ The dashboard has 2 pages:
 ### Page 2 — Operational Performance
 ![Operational Performance](images/dashboard_operations.png)
 
+## Project Files
+Quick-Commerce-Analytics/
+│
+├── README.md
+├── data/
+│   ├── qc_Raw_data_latest.csv        
+│   └── QC_CleanedData.csv           
+├── sql/
+│   └── quick_commerce.sql      
+├── powerbi/
+│   └── QuickCommerce_data.pbix      
+└── images/
+    ├── dashboard_overview.png       
+    └── dashboard_operations.png 
+
 ## Key Insights
 - Zepto had the fastest average delivery time.
 - Discounted orders had a higher average order value than non-discounted orders.
 - October and November had higher orders and revenue compared to other months.
 - Swiggy Instamart generated the highest revenue.
 - Gurgaon and Noida performed strongly in total revenue.
-
-## Project Files
-Quick-Commerce-Analytics/
-├── data/
-│ ├── qc_Raw_data_latest.csv
-│ └── QC_CleanedData.csv
-├── sql/
-│ └── quick_commerce.sql
-├── powerbi/
-│ └── QuickCommerce_data.pbix
-└── images/
-├── dashboard_overview.png
-└── dashboard_operations.png
 
 ## Future Enhancements
 - Add more SQL queries and analysis
