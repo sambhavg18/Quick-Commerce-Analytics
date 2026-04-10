@@ -35,6 +35,8 @@ The dashboard has 2 pages:
 ![Operational Performance](images/dashboard_operations.png)
 
 ## Project Files
+
+```
 Quick-Commerce-Analytics/
 │
 ├── README.md
@@ -47,8 +49,9 @@ Quick-Commerce-Analytics/
 │   └── QuickCommerce_data.pbix      
 └── images/
     ├── dashboard_overview.png       
-    └── dashboard_operations.png 
-
+    └── dashboard_operations.png
+```
+---
 ## Key Insights
 - Zepto had the fastest average delivery time.
 - Discounted orders had a higher average order value than non-discounted orders.
