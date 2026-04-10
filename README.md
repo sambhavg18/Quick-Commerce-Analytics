@@ -1,7 +1,7 @@
 
 # Quick Commerce Analytics Dashboard
 
-### End-to-end data analytics project | Excel · PostgreSQL · Power BI
+### End-to-end data analytics project |
 
 ![Tools](https://img.shields.io/badge/Excel-Power%20Query-217346?style=flat&logo=microsoftexcel&logoColor=white)
 ![Tools](https://img.shields.io/badge/PostgreSQL-Database-4169E1?style=flat&logo=postgresql&logoColor=white)
