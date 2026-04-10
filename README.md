@@ -8,6 +8,8 @@
 ![Tools](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=flat&logo=powerbi&logoColor=black)
 
 ---
+## Overview
+The project is based on 179,380 orders from 2024 across 6 quick commerce platforms and 12 cities in India.
 In this project:
 - Raw data was cleaned in Excel power query.
 - The cleaned data was loaded into PostgreSQL.
